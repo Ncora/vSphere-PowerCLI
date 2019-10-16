@@ -1,4 +1,4 @@
-$arrFileContents = Get-Content -path “C:\roles.txt”
+$arrFileContents = Get-Content -path “C:\tmp\roles.txt”
 ForEach ($strLine in $arrFileContents)
 {
 If ($strLine.contains(“Role`t”))
